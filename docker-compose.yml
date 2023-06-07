@@ -16,9 +16,6 @@ services:
       - '909:3000'
     depends_on:
       - mysql
-    # environment:
-    #   - SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/my_database?useSSL=false&serverTimezone=UTC
-    #   - SPRING_DATASOURCE_USERNAME=db_user
-    #   - SPRING_DATASOURCE_PASSWORD=db_password
+
 volumes:
   mysql-data:
