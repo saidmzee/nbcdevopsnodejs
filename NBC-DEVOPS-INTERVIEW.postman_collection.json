@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "bf26f6b0-2cd7-45b0-9c38-7503c8a81795",
+		"name": "NBC-DEVOPS-INTERVIEW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2174242"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fullName\": \"Kambarage JN\",\n    \"amount\": \"56,000\",\n    \"accountNumber\": \"61287361281\",\n    \"referenceNumber\": \"36128763782136\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://10.100.64.50:6020/webservice/api/v1/transfers",
+					"protocol": "http",
+					"host": [
+						"10",
+						"100",
+						"64",
+						"50"
+					],
+					"port": "6020",
+					"path": [
+						"webservice",
+						"api",
+						"v1",
+						"transfers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
